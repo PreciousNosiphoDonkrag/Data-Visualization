@@ -9,4 +9,5 @@ Data visualization is a whole study on its own, and I servery under-estimated it
 ## End goal for this section:
 To create interactive (user-centric) dashboards using anyone one of the available tools (Tableau, PowerBI etc) with the aim of enhancing my data visualisation skills.
 
-## Place final thoughts:
+## Final thoughts:
+* The hardest part about visualization is understanding the data you are working with.
