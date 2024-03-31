@@ -35,4 +35,14 @@ Data visualization is a whole study on its own, and I severely underestimated it
    
 * Scatter plots
   - Further exploration of the Scipy library
-  - And creating esthetically pleasing plots to visualise relationships between        variables.
+  - And creating esthetically pleasing plots to visualize relationships between        variables.
+ 
+* Heatmap
+  - A new method of graphically viewing the relationships between multiple              variables.
+  - Explored Seaborn for the first time, this is the only graphical plot that            required Seaborn with the other ones I could get away with just Matplotlib.
+  
+## Data Sources used For this section
+    - excel file from the SARB
+    - CSV file from Kaggle
+    - JSON file
+    - Readily available datasets from sklearn
