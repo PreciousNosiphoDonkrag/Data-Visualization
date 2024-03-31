@@ -23,3 +23,16 @@ Data visualization is a whole study on its own, and I severely underestimated it
       - The memory usage of the data frame.
       -Whether there are any non-null values in each column (missing values)
   - Another useful tool is Panda's ability to allow me to view just the column         names from my dataset. this made it easier for me to focus on columns I am         interested in.
+ 
+ * Histogram
+    - Using a readily available dataset from the SkLearn library
+    - Exploring the features of the load_wine dataset
+    - Adding statistical measures to the plots
+    - Introduced to the scientific Python library for statistical calculations
+    
+ * Bar graph
+    - I learned how to work with JSON files
+   
+* Scatter plots
+  - Further exploration of the Scipy library
+  - And creating esthetically pleasing plots to visualise relationships between        variables.
