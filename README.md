@@ -22,7 +22,7 @@ Data visualization is a whole study on its own, and I severely underestimated it
       - The data type of each column.
       - The memory usage of the data frame.
       -Whether there are any non-null values in each column (missing values)
-  - Another useful tool is Panda's ability to allow me to view just the column         names from my dataset. this made it easier for me to focus on columns I am         interested in.
+  - Another useful feature is Panda's ability to allow me to view just the column         names from my dataset. this made it easier for me to focus on columns I am         interested in.
  
  * Histogram
     - Using a readily available dataset from the SkLearn library
