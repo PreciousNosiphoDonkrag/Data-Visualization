@@ -12,7 +12,7 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 
 file_path = os.path.join(current_dir, "Foodandbeveragesfrom2005.xlsx")
 df = pd.read_excel(file_path)
-
+#print(df.info())
 #isolate the 2023 columns
 col_2023 = []
 for col in df.columns:

@@ -1,7 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 from sklearn.datasets import load_wine
-
+from scipy.stats import skew
 wine = load_wine()
 data = wine.data
 
@@ -24,7 +24,25 @@ plt.hist(data[:,0], color="#7B0323", edgecolor="black")
 plt.xlabel("Alcohol Content")
 plt.ylabel("Frequency")
 plt.title("Wine Histogram")
-plt.show()
 
-#From the histogram we can see that
-#the most frequent alcohol % is around 12.5
+
+#The histogram is a statistical model. so lets add stats on out plot
+mean = np.mean(data[:,0])
+median = np.median(data[:,0])
+std = np.std(data[:,0])
+#to get the mode we find the max frequency
+#then count the number of variables that make up this max freq.
+#mode = np.argmax(np.bincount(data[:,0].astype(int)))
+#mode not required for continous data
+
+#skewness
+skewness = skew(data[:,0])
+
+#just plot vertical lines to show the mean and median
+plt.axvline(mean, color="blue", linestyle='dashed', linewidth=1, label=f'Mean: {mean:.2f}')
+plt.axvline(median, color="green", linestyle='dashed', linewidth=1, label=f'Median: {median:.2f}')
+x_coordinate = 11
+y_coordinate = 35
+plt.text(x_coordinate, y_coordinate, f'Skewness: {skewness:.2f}', fontsize=10, verticalalignment='top')
+plt.legend()
+plt.show()
