@@ -14,7 +14,7 @@ Data visualization is a whole study on its own, and I severely underestimated it
 ## What I Learned:
 * The hardest part about visualization is understanding the data you are working with.
 * Pie chart
-    - Working with data frames from the Panda library,
+    - Working with dataframes from the Pandas library,
     - Using functions in Panda to clean and remove any unwanted columns and rows,
     - Interestingly, I discovered that the library has a function that gives you
       summarised information about your dataset. this is ideal for new unknown           datasets. The dataset.info() gives you the following information:
